@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do second attempt</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/2c5b632d4b.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="main">
+        <div class="box">
+            <h1>Todos</h1>
+
+            <div class="input-todo">
+                <input 
+                type="text" 
+                value=""
+                placeholder="enter new task">
+                <button class="add">Add</button>
+            </div>
+
+            <ul class="todo-list">
+                <li><span class="todo-text">Go shopping</span>
+                    <span> 
+                        <i class="fa fa-check-square-o" id="check" aria-hidden="true"></i>
+                        <i class="fa fa-trash-o" id="delete" aria-hidden="true"></i>
+                    </span>
+                </li>
+            </ul>
+
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.0.min.js"></script>
+    <script src="scripts.js"></script>
+</body>
+</html>
